@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <title>UNICORN.fail</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#603cba">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href='https://fonts.googleapis.com/css?family=Monoton|Alegreya+Sans+SC:400,300,700' rel='stylesheet' type='text/css'>
+  <style>
+    html, body { margin: 0; padding: 0; }
+    body { font-family: Arial; padding-bottom: 150px; text-align: center; }
+    a { color: #00A0DB; }
+    h1 { font-family: Monoton, Arial; font-weight: 300; margin: 0; }
+    h1 span:nth-child(1) { color: #81C939; }
+    h1 span:nth-child(2) { color: #F9E628; }
+    h1 span:nth-child(3) { color: #FDA228; }
+    h1 span:nth-child(4) { color: #E8157A; }
+    h1 span:nth-child(5) { color: #7B1B80; }
+    h1 span:nth-child(6) { color: #0C63AD; }
+    h1 span:nth-child(7) { color: #00A0DB; }
+    h1 small { color: #ccc; }
+    hr { border: 0; height: 5px; margin: 40px 0; width: 100% }
+    footer { background: #fafafa; bottom: 0; color: #aaa; font-size: 12px; left: 0; padding: 40px 20px; right: 0; position: fixed; text-align: center; }
+    footer a { color: #aaa; }
+    footer hr { margin: 0; left: 0; position: absolute; right: 0; top: -3px; }
+    .lead { color: #aaa; font-family: "Alegreya Sans SC", Arial; font-size: 18px; font-weight: 300; margin: 20px 0; }
+    .logo { background: url(/logo.png) transparent no-repeat 0 0; background-size: contain; margin: 0 auto; height: 200px; width: 200px; }
+    @media (min-width: 512px) {
+      .lead { font-size: 28px; }
+      .logo { height: 512px; width: 512px; }
+      h1 { font-size: 64px; }
+    }
+    /**
+     * Originally based off from: CSS animated rainbow dividers of awesome
+     * by Chris Heilmann @codepo8 and Lea Verou @leaverou
+     * http://codepo8.github.io/CSS3-Rainbow-Dividers/
+     */
+    @-moz-keyframes rainbow { from { background-position:top left; }  to {background-position:top right; } }
+    @-webkit-keyframes rainbow { from { background-position:top left; } to { background-position:top right; } }
+    @keyframes rainbow { from { background-position:top left; } to { background-position:top right; } }
+    hr, .rainbow {
+      background-image: -webkit-linear-gradient( left, #81C939, #F9E628, #FDA228, #E8157A, #7B1B80, #0C63AD,    #00A0DB,    #0C63AD, #7B1B80, #E8157A, #FDA228, #F9E628, #81C939 );
+      background-image: -moz-linear-gradient(    left, #81C939, #F9E628, #FDA228, #E8157A, #7B1B80, #0C63AD,    #00A0DB,    #0C63AD, #7B1B80, #E8157A, #FDA228, #F9E628, #81C939 );
+      background-image: linear-gradient(         left, #81C939, #F9E628, #FDA228, #E8157A, #7B1B80, #0C63AD,    #00A0DB,    #0C63AD, #7B1B80, #E8157A, #FDA228, #F9E628, #81C939 );
+      background-size: 50% auto;
+      -webkit-animation: rainbow 5s forwards linear infinite;
+      -moz-animation: rainbow 5s forwards linear infinite;
+      animation: rainbow 5s forwards linear infinite;
+    }
+  </style>
+</head>
+<body>
+<div class="logo"></div>
+<h1><span>U</span><span>N</span><span>I</span><span>C</span><span>O</span><span>R</span><span>N</span><small>.fail</small></h1>
+<div class="lead">Bringing a little bit of magic to<br>the world, one pixel at a time</div>
+<div><a href="https://github.com/unicorn-fail" target="_blank">View Projects</a>
+  <footer><hr>This site's logo was modified from the original <a href="https://thenounproject.com/term/unicorn/78104/" target="_blank">unicorn icon</a>, purchased from and created by <a href="https://thenounproject.com/pjsmits/" target="_blank">Pieter J. Smits</a>, NL</footer>
+</body>
+</html>
